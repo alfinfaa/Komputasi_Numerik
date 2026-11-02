@@ -1,0 +1,32 @@
+ALGORITMA PENYELESAIAN SISTEM PERSAMAAN LINEAR TIGA VARIABEL
+Metode Eliminasi Gauss
+
+Tujuan:
+Menentukan nilai tiga variabel dari tiga persamaan linear dengan mengubah matriks augmented menjadi bentuk eselon baris (segitiga atas), kemudian melakukan substitusi mundur.
+
+Input:
+- Koefisien variabel x, y, dan z dari tiga persamaan.
+- Konstanta di ruas kanan setiap persamaan.
+
+Langkah algoritma:
+1. Mulai.
+2. Masukkan koefisien dan konstanta dari tiga persamaan linear.
+3. Susun data ke dalam matriks augmented berukuran 3 x 4.
+4. Tentukan elemen pivot pada kolom pertama.
+5. Jika diperlukan, tukar baris agar pivot tidak nol.
+6. Gunakan operasi baris elementer untuk membuat elemen di bawah pivot pertama menjadi nol.
+7. Lanjutkan proses pada kolom kedua untuk membuat elemen di bawah pivot kedua menjadi nol.
+8. Peroleh matriks segitiga atas.
+9. Periksa apakah sistem memiliki pivot yang cukup untuk menghasilkan solusi tunggal.
+10. Hitung variabel terakhir dari baris paling bawah.
+11. Gunakan substitusi mundur untuk menghitung variabel pada baris di atasnya sampai seluruh variabel diperoleh.
+12. Tampilkan nilai x, y, dan z.
+13. Selesai.
+
+Operasi baris elementer yang digunakan:
+- Pertukaran baris: menukar dua baris.
+- Perkalian baris: mengalikan satu baris dengan konstanta bukan nol.
+- Penjumlahan baris: menambahkan kelipatan suatu baris ke baris lain.
+
+Catatan:
+Eliminasi Gauss menghasilkan bentuk eselon baris dan dilanjutkan dengan substitusi mundur. Proses ini berbeda dari Gauss-Jordan yang meneruskan eliminasi hingga bentuk eselon baris tereduksi.
