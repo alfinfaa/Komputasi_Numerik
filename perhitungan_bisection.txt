@@ -1,0 +1,43 @@
+PERHITUNGAN METODE BISECTION
+
+Diketahui:
+f(x) = x^3 - x - 2
+a = 1
+b = 2
+toleransi = 0,0001
+
+1. Memeriksa interval awal
+
+f(1) = 1^3 - 1 - 2 = -2
+f(2) = 2^3 - 2 - 2 = 4
+
+f(1) * f(2) = (-2) * 4 = -8 < 0
+
+Karena hasil perkalian negatif, interval [1, 2] memenuhi syarat perubahan tanda.
+
+2. Menghitung titik tengah
+
+c = (a + b) / 2
+c = (1 + 2) / 2
+c = 1,5
+
+f(1,5) = 1,5^3 - 1,5 - 2
+f(1,5) = -0,125
+
+Karena f(a) dan f(c) sama-sama negatif, akar berada pada interval [1,5, 2].
+
+3. Iterasi berikutnya
+
+c = (1,5 + 2) / 2 = 1,75
+f(1,75) = 1,609375
+
+Tanda f(1,5) negatif dan f(1,75) positif, sehingga interval baru adalah [1,5, 1,75].
+
+Proses diteruskan dengan cara yang sama sampai nilai absolut f(c) kurang dari atau sama dengan 0,0001.
+
+4. Hasil pendekatan
+
+Akar persamaan berada di sekitar 1,5214 (bergantung pada kriteria penghentian dan pembulatan).
+
+Catatan:
+Notebook menghitung iterasi secara otomatis dan menampilkan tabel setiap langkah. Nilai akhir yang tercetak dari program menjadi hasil pengujian yang digunakan.

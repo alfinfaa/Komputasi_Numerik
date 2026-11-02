@@ -1,0 +1,36 @@
+ALGORITMA PENYELESAIAN PERSAMAAN NONLINEAR
+Metode Bisection (Metode Bagi Dua)
+
+Tujuan:
+Mencari pendekatan akar persamaan nonlinear dengan membagi interval yang mengapit akar menjadi dua bagian secara berulang.
+
+Input:
+- Fungsi f(x).
+- Batas bawah a.
+- Batas atas b.
+- Toleransi kesalahan.
+- Jumlah iterasi maksimum.
+
+Langkah algoritma:
+1. Mulai.
+2. Definisikan fungsi nonlinear yang akan dicari akarnya.
+3. Masukkan nilai a, b, toleransi, dan jumlah iterasi maksimum.
+4. Hitung f(a) dan f(b).
+5. Periksa syarat f(a) * f(b) < 0. Jika tidak terpenuhi, interval belum mengapit perubahan tanda sehingga proses dihentikan.
+6. Hitung titik tengah c = (a + b) / 2.
+7. Hitung f(c).
+8. Jika |f(c)| lebih kecil atau sama dengan toleransi, nyatakan c sebagai pendekatan akar dan hentikan proses.
+9. Jika belum memenuhi toleransi, periksa tanda f(a) * f(c).
+10. Jika hasilnya kurang dari nol, gunakan interval baru [a, c]. Jika tidak, gunakan interval baru [c, b].
+11. Ulangi langkah 6 sampai 10 hingga toleransi terpenuhi atau iterasi maksimum tercapai.
+12. Tampilkan pendekatan akar, nilai fungsi pada akar pendekatan, dan jumlah iterasi.
+13. Selesai.
+
+Rumus:
+c = (a + b) / 2
+
+Syarat interval:
+f(a) * f(b) < 0
+
+Catatan:
+Metode Bisection memerlukan fungsi kontinu pada interval dan interval awal yang mengapit akar. Metode ini menghasilkan pendekatan akar, bukan selalu nilai eksak.
