@@ -1,0 +1,32 @@
+DOKUMENTASI PROMPT AI
+Mata Kuliah: Komputasi Numerik
+
+PENTING:
+Dokumen ini merupakan daftar prompt dasar yang disiapkan untuk membantu pengerjaan. Sebelum dikumpulkan, sesuaikan dengan prompt yang benar-benar digunakan dan tambahkan prompt lanjutan yang benar-benar dikirim. Jangan menyatakan telah menggunakan prompt yang tidak pernah digunakan.
+
+PROMPT 1 – MEMAHAMI MATERI SPL
+Saya mengunggah materi Komputasi Numerik tentang Sistem Persamaan Linear dan Eliminasi Gauss. Bantu saya merangkum konsep yang relevan untuk menyelesaikan SPL tiga variabel. Pertahankan istilah pada materi, jelaskan matriks augmented, operasi baris elementer, eliminasi maju, bentuk segitiga atas, dan substitusi mundur. Jangan mengganti metode yang digunakan dalam materi.
+
+PROMPT 2 – MENYUSUN ALGORITMA SPL
+Berdasarkan tahapan Eliminasi Gauss, susun algoritma penyelesaian sistem persamaan linear tiga variabel dalam bahasa Indonesia. Buat langkah berurutan dari input koefisien hingga menampilkan solusi. Bedakan eliminasi Gauss dengan Gauss-Jordan.
+
+PROMPT 3 – MEMBUAT PROGRAM SPL
+Buat program Python untuk menyelesaikan SPL tiga variabel dengan metode Eliminasi Gauss. Pisahkan notebook menjadi beberapa cell Google Colab: data persamaan, eliminasi maju, tampilan matriks segitiga atas, substitusi mundur, hasil, dan pemeriksaan. Sertakan komentar penjelas dan gunakan contoh persamaan yang dapat diverifikasi.
+
+PROMPT 4 – MENJELASKAN KODE SPL
+Jelaskan fungsi setiap bagian dan baris penting dari program Eliminasi Gauss Python. Gunakan bahasa mahasiswa Informatika semester 3. Jelaskan variabel, perulangan, pemilihan pivot, operasi baris, dan substitusi mundur.
+
+PROMPT 5 – MEMBUAT ALGORITMA BISECTION
+Jelaskan dan susun algoritma metode Bisection untuk menyelesaikan persamaan nonlinear. Uraikan syarat interval, rumus titik tengah, cara memilih interval baru, dan kriteria berhenti. Tandai bahwa Bisection adalah materi terpisah dari PDF Eliminasi Gauss yang saya berikan.
+
+PROMPT 6 – MEMBUAT PROGRAM BISECTION
+Buat notebook Python Google Colab untuk metode Bisection. Pisahkan cell definisi fungsi, parameter interval, pemeriksaan perubahan tanda, iterasi, tabel hasil, dan kesimpulan. Tambahkan komentar pada kode.
+
+PROMPT 7 – DOKUMENTASI REPOSITORY
+Susun README untuk repository GitHub Komputasi-Numerik yang menjelaskan dua proyek, struktur folder, cara membuka notebook di Google Colab, dan hasil pengujian.
+
+PROMPT 8 – NASKAH VIDEO
+Buat naskah presentasi singkat untuk menjelaskan algoritma, kode, dan hasil program Eliminasi Gauss serta Bisection. Durasi setiap video maksimal lima menit. Sisakan bagian awal untuk perkenalan dengan wajah dan suara pembuat video sendiri.
+
+CATATAN PENGGUNAAN:
+Simpan prompt lanjutan yang benar-benar dipakai, misalnya prompt untuk memperbaiki error, menguji hasil, atau memperjelas komentar kode. Riwayat prompt harus mencerminkan proses pengerjaan sebenarnya.
